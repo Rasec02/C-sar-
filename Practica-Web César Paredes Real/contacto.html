@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería Navaja — Contacto</title>
+  <meta name="description" content="Reserva tu cita o haz una consulta. Estamos en Calle Martí #123, Pinar del Río, Cuba. Atención de lunes a sábado.">
+  <link rel="canonical" href="https://barberianavaja.cu/contacto.html">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Barbería Navaja</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="sobre.html">Sobre nosotros</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contacto">
+      <h2>Contáctanos</h2>
+
+      <form action="#" method="post">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" required minlength="3">
+        </div>
+
+        <div class="campo">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="campo">
+          <label for="servicio">Servicio de interés</label>
+          <select id="servicio" name="servicio" required>
+            <option value="">Selecciona un servicio</option>
+            <option value="corte">Corte clásico</option>
+            <option value="barba">Arreglo de barba</option>
+            <option value="afeitado">Afeitado tradicional</option>
+            <option value="paquete">Paquete completo</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje o preferencia de horario</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+
+        <div class="campo checkbox">
+          <input type="checkbox" id="acepto" name="acepto" required>
+          <label for="acepto">Acepto la política de privacidad y el tratamiento de mis datos</label>
+        </div>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+
+      <address>
+        Calle Martí #123, Pinar del Río, Cuba<br>
+        Teléfono: +53 5555 5555<br>
+        Email: contacto@barberianavaja.cu<br>
+        Horario: Lunes a Sábado, 9:00 AM – 7:00 PM
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Barbería Navaja. Todos los derechos reservados.</p>
+    <ul>
+      <li><a href="https://instagram.com/barberianavaja">Instagram</a></li>
+      <li><a href="https://facebook.com/barberianavaja">Facebook</a></li>
+      <li><a href="https://wa.me/5355555555">WhatsApp</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
